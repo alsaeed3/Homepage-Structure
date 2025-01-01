@@ -3,53 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Tech Blog</title>
+    <title>My Tech Blog - Home</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header Section -->
     <header>
         <h1>My Tech Blog</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="blog.html">Blog Posts</a></li>
+                <li><a href="blog.html">Blog</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Main Content -->
     <main>
-        <!-- Featured Blog Posts Section -->
-        <section class="blog-posts">
-            <h2>Latest Posts</h2>
-            
-            <!-- Blog Post 1 -->
-            <article class="post">
-                <h2><a href="posts/getting-started-with-web-dev.html">Getting Started with Web Development</a></h2>
-                <p>An introduction to the fundamentals of web development, covering HTML, CSS, and JavaScript basics for beginners.</p>
-                <time datetime="2025-01-01">January 1, 2025</time>
-            </article>
+        <section class="hero">
+            <h2>Welcome to My Tech Blog</h2>
+            <p>Exploring the latest in web development, accessibility, and artificial intelligence</p>
+        </section>
 
-            <!-- Blog Post 2 -->
-            <article class="post">
-                <h2><a href="posts/responsive-design-tips.html">Essential Responsive Design Tips</a></h2>
-                <p>Learn the key principles and techniques for creating websites that look great on all devices.</p>
-                <time datetime="2024-12-28">December 28, 2024</time>
-            </article>
-
-            <!-- Blog Post 3 -->
-            <article class="post">
-                <h2><a href="posts/css-grid-vs-flexbox.html">CSS Grid vs Flexbox: When to Use What</a></h2>
-                <p>A comprehensive comparison of CSS Grid and Flexbox, with practical examples and use cases for each.</p>
-                <time datetime="2024-12-25">December 25, 2024</time>
-            </article>
+        <section class="featured-posts">
+            <h2>Featured Posts</h2>
+            <div class="post-previews">
+                <article class="preview">
+                    <h3><a href="blog.html#post1">Understanding Web Accessibility</a></h3>
+                    <p>Learn the fundamentals of creating accessible websites...</p>
+                </article>
+                <article class="preview">
+                    <h3><a href="blog.html#post2">The Future of AI in Web Development</a></h3>
+                    <p>Discover how AI is transforming web development...</p>
+                </article>
+                <article class="preview">
+                    <h3><a href="blog.html#post3">Responsive Design Best Practices in 2025</a></h3>
+                    <p>Learn the latest trends and techniques for creating responsive websites...</p>
+                </article>
+            </div>
+        </section>
+        <section>
+            <p>For further inquiries, you can also email us at <a href="info@myblog.com">info@myblog.com</a>.</p>
         </section>
     </main>
-    <section>
-        <p>For further inquiries, you can also email us at <a href="info@myblog.com">info@myblog.com</a>.</p>
-    </section>
-    <!-- Footer -->
+
     <footer>
         <p>&copy; 2025 My Tech Blog. All rights reserved.</p>
     </footer>
