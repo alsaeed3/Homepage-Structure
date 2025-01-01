@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Tech Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .blog-list {
+            margin-bottom: 50px;
+        }
+        .post {
+            margin: 40px 0;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+        }
+        address {
+            font-style: italic;
+            margin: 10px 0;
+        }
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #333;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Blog List Section -->
+    <section class="blog-list" id="blog-list">
+        <h2>Latest Blog Posts</h2>
+        <ul>
+            <li><a href="#post1">Understanding Web Accessibility: A Beginner's Guide</a></li>
+            <li><a href="#post2">The Future of Artificial Intelligence in Web Development</a></li>
+            <li><a href="#post3">Responsive Design Best Practices in 2025</a></li>
+        </ul>
+    </section>
+
+    <!-- Detailed Blog Posts -->
+    <section class="blog-posts">
+        <!-- Post 1 -->
+        <article class="post" id="post1">
+            <h1>Understanding Web Accessibility: A Beginner's Guide</h1>
+            <address>
+                Written by Sarah Johnson
+                <time datetime="2025-01-01">January 1, 2025</time>
+            </address>
+            <img src="professional.jpg" alt="Diagram showing various web accessibility features including screen readers and keyboard navigation">
+            <p>Web accessibility is more important than ever in today's digital landscape. This guide will help you understand the fundamental principles of creating accessible websites.</p>
+            <h3>Key Accessibility Features to Consider:</h3>
+            <ul>
+                <li>Proper heading structure and semantic HTML</li>
+                <li>Alternative text for images</li>
+                <li>Keyboard navigation support</li>
+                <li>Sufficient color contrast</li>
+            </ul>
+            <p>Learn more about web accessibility at <a href="https://www.w3.org/WAI/">W3C Web Accessibility Initiative</a>.</p>
+            <a href="#blog-list">Back to list</a>
+        </article>
+
+        <!-- Post 2 -->
+        <article class="post" id="post2">
+            <h1>The Future of Artificial Intelligence in Web Development</h1>
+            <address>
+                Written by Michael Chen
+                <time datetime="2025-01-02">January 2, 2025</time>
+            </address>
+            <img src="workplace.jpg" alt="Visual representation of AI-powered web development tools and interfaces">
+            <p>Artificial Intelligence is revolutionizing how we build and maintain websites. Here's what you need to know about the latest developments.</p>
+            <h3>Top AI Applications in Web Development:</h3>
+            <ol>
+                <li>Automated code generation and optimization</li>
+                <li>Intelligent content management systems</li>
+                <li>Personalized user experiences</li>
+                <li>Advanced debugging tools</li>
+            </ol>
+            <p>Explore more about AI in web development at <a href="https://developer.mozilla.org/en-US/docs/Web/AI">MDN Web Docs</a>.</p>
+            <a href="#blog-list">Back to list</a>
+        </article>
+
+        <!-- Post 3 -->
+        <article class="post" id="post3">
+            <h1>Responsive Design Best Practices in 2025</h1>
+            <address>
+                Written by Emily Rodriguez
+                <time datetime="2025-01-03">January 3, 2025</time>
+            </address>
+            <img src="laptop.jpg" alt="Multiple devices showing responsive web design layouts">
+            <p>As device diversity continues to grow, responsive design remains crucial for web development. Let's explore the latest best practices.</p>
+            <h3>Essential Responsive Design Elements:</h3>
+            <ul>
+                <li>Mobile-first approach</li>
+                <li>Fluid grid layouts</li>
+                <li>Flexible images and media</li>
+                <li>Context-aware components</li>
+            </ul>
+            <p>Check out more responsive design techniques at <a href="https://web.dev/responsive-web-design-basics/">web.dev</a>.</p>
+            <a href="#blog-list">Back to list</a>
+        </article>
+    </section>
+
+    <a href="#blog-list" class="back-to-top">Back to Top</a>
+</body>
+</html>
